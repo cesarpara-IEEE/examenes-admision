@@ -1,0 +1,72 @@
+
+body.indice {
+  background-color: #00303e; 
+}
+
+body.desarrollo {
+  background-color: #00303e; 
+}
+
+
+h1{
+  color: #0096c1;
+  font-family: 'Inconsolata', monospace;
+}
+
+h2{
+  color: #efe158;
+  font-family: 'Inconsolata', monospace;
+  
+}
+
+a:visited{
+  color: #c500ec;
+}
+
+a:link{
+  color: #ec007c;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #ec007c;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+a:hover{
+  color: #a6e22e;
+}
+
+
+div.problem{
+  margin-bottom: 40px;
+}
+
+div.alternativas{
+  width: 500px;
+  margin-top: 8px;
+}
+
+div.enunciado{
+  font-size: 16px;
+  font-family: 'ICutive+Mono', monospace;
+  color: rgb(177, 193, 209);
+  width: 500px;
+  text-align: justify;
+}
+
+span.alter{
+  font-size: 16px;
+  font-family: 'ICutive+Mono', monospace;
+  color: rgb(229, 234, 238);
+  margin-right: 40px;
+}
+
+ul{
+  margin-left: 0px;
+  padding-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
