@@ -15,8 +15,11 @@ h1{
 
 h2{
   color: #efe158;
-  font-family: 'Inconsolata', monospace;
-  
+  font-family: 'Inconsolata', monospace; 
+}
+
+h2.titulo-area{
+  color: #a6e22e;;
 }
 
 a:visited{
@@ -57,6 +60,15 @@ div.enunciado{
   text-align: justify;
 }
 
+div.enunciadotex{
+  font-size: 16px;
+  font-family: 'ICutive+Mono', monospace;
+  color: rgb(177, 193, 209);
+  width: 500px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
 span.alter{
   font-size: 16px;
   font-family: 'ICutive+Mono', monospace;
@@ -64,9 +76,51 @@ span.alter{
   margin-right: 40px;
 }
 
+span.alterb{
+  font-size: 16px;
+  font-family: 'ICutive+Mono', monospace;
+  color: rgb(229, 234, 238);
+  margin-right: 40px;
+  display: block;
+}
+
 ul{
   margin-left: 0px;
   padding-left: 20px;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+
+div.contenido{
+  margin: auto;
+  width: 1300px;
+}
+
+div.cont{
+  width: 100%;
+  height: 100%;
+}
+
+div.cabeza{
+  margin: auto;
+  width: 40%;
+}
+
+div.indicemenor{
+  background-color: #074557;
+  float: left;
+  width: 12%;
+  height: 80%;
+  position: fixed;
+
+}
+
+div.ajuste{
+  margin-left: 6%;
+}
+
+div.cuestionario{
+  float: right;
+  width: 85%;
 }
